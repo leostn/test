@@ -14,5 +14,9 @@
       servicePort: 80,
       type: "ClusterIP",
     },
+    redis: {
+      name: "redis",
+      redisPassword: "null",
+    },
   },
 }
