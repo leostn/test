@@ -18,6 +18,12 @@ environments:
       server: https://192.168.99.101:8443
     k8sVersion: v1.13.4
     path: prod
+  test:
+    destination:
+      namespace: new
+      server: https://192.168.99.101:8443
+    k8sVersion: v1.13.4
+    path: test
 kind: ksonnet.io/app
 libraries:
   incubator/redis:
